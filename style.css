@@ -370,7 +370,7 @@ main{
     max-width: 80vw;
     margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns:auto auto auto auto auto;
     align-items: center;
 }
 .secondery-btn{
@@ -399,7 +399,55 @@ main{
     line-height: normal;
     padding: 0px 5px;
 }
+/* button sectio ends  */
+/* footer sectio start here */
 
+.footer-container{
+    background: #0B0223;
+    color: white;
+    height: 600px;
+}
+.footer-games ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+    list-style: none;
+    gap: 50px;
+
+}
+.footer-list{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: .90rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nav-title1{
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav-title1 span{
+    color: #F948B2;
+}
+.nav-gamer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top:70px ;
+}
+.features ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+    list-style: none;
+    gap: 50px;
+}
 /* responsive style here */
 
 
