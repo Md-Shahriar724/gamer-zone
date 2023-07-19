@@ -253,6 +253,52 @@ main{
     padding-left: 10px ;
 }
 
+/* online sectio end */
+
+.download-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.download-image{
+    height: 450px;
+    width: 450px;
+}
+.download-img{
+    height: 200px;
+    width: 200;
+    padding: 5px;
+    margin: -180px -40px;
+    /* margin: -150px -40px; */
+}
+.download-title{
+    text-align: center;
+    margin-right: 50px;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.download-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.download-des{
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 10px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 0.90rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.download-image-container{
+    display: grid;
+    
+}
 
 
 
@@ -332,4 +378,19 @@ main{
     }
 
 
+
+    /* download start here */
+    .download-container{
+        flex-direction: column;
+    }
+    .download-image{
+        height: 400px;
+        width: 400px;
+        margin-top: 30px;
+    }
+    .download-img{
+        height: 150px;
+        width: 150px;
+        margin: -55px 0px 0px 110px;
+    }
 }
