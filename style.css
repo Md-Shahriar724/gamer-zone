@@ -72,7 +72,12 @@
     padding: 10px 0px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-
+.nav-gamer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 /* nav style ends here */
 /* btn here */
 .btn{
@@ -259,6 +264,7 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 100px;
 }
 .download-image{
     height: 450px;
@@ -299,13 +305,100 @@ main{
     display: grid;
     
 }
+/* download section ends */
+ /* carrer section added */
 
+ .carrer-image{
+    height: 450px;
+    width: 450px;
+ }
+ .carrer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-top: 150px;
+ }
+.carrer-description{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: .80rem;
+    font-weight: 400;
+    text-align: left;
+    width: 400px;
+}
 
-
-
-
-
-
+.carrer-ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.carrer-ul ul{
+    list-style: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: .80rem;
+    font-weight: 400;
+    margin-top:30px ;
+    line-height: 25px;
+    
+}
+.carrer-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 60px; 
+    text-align: center;
+}
+.carrer-list1{
+    text-align: left;
+}
+.carrer-list2{
+    text-align: right;
+}
+.carrer-content{
+    margin-left: 70px;
+}
+/* button sectio start here */
+.btn-img{
+    height: 30px;
+    width: 30px;
+}
+.button-container{
+    max-width: 80vw;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+.secondery-btn{
+    background-color: #ffffff;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(240, 235, 235);
+    margin: 20px 0px;
+}
+.secondery-btn:hover{
+    border: 2px solid var(--pink);
+    cursor: pointer;
+    color: #F948B2;
+}
+.secondery-btn span{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 0.70rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 5px;
+}
 
 /* responsive style here */
 
@@ -392,5 +485,26 @@ main{
         height: 150px;
         width: 150px;
         margin: -55px 0px 0px 110px;
+    }
+    /* carrer section  start here */
+    .carrer-image{
+        height: 400px;
+        width:400px;
+    }
+    .carrer-container{
+        flex-direction: column;
+    }
+    .carrer-content{
+        margin-left: 0px;
+    }
+    .carrer-description{
+        width: 90vw;
+        margin: auto;
+        padding-bottom:20px ;
+    }
+    .carrer-title{
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 70px;
     }
 }
