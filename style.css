@@ -229,26 +229,37 @@ main{
 .online-container{
     max-width: 80vw;
     margin: auto;
+    margin-top: 50px;
 }
 .online-image{
     height: 200px;
     width: 220px;
-    padding: 10px 10px;
+    margin: 25px 5px;
 }
-
+.online-image:hover{
+    border: 2px solid red;
+    border-radius: 8px;
+}
 .online-img-continer{
     display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
     justify-content: center;
-    align-items: center;
-}
-.online-description-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
+    max-width: 80vw;
 }
 .description-solve{
+    width: 200px;
     text-align: left;
+    padding-left: 10px ;
 }
+
+
+
+
+
+
+
+
 
 /* responsive style here */
 
@@ -291,10 +302,34 @@ main{
     }
     .gamer-content{
         align-content: center;
+        max-width: 80vw;
+    }
+    .gamer-title,
+    .gamer-description{
+        text-align: center;
+        margin: auto;
+    }
+    .margin{
+        margin: 20px 0px;
+    
     }
 
     /* gamer end */
+    /* online section */
 
+    .online-img-continer{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        max-width: 80vw;
+        margin: auto;
+        
+    }
+    .online-title{
+        max-width: 300px;
+        margin-top: 150px;
+
+    }
 
 
 }
