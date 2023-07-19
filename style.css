@@ -235,6 +235,7 @@ main{
     width: 220px;
     padding: 10px 10px;
 }
+
 .online-img-continer{
     display: flex;
     justify-content: center;
@@ -244,6 +245,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.description-solve{
+    text-align: left;
 }
 
 /* responsive style here */
