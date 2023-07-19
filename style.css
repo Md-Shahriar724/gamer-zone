@@ -197,11 +197,58 @@ main{
     font-style: normal;
     font-weight: 700;
 }
+/* gamer ends */
 
+.online-title{
+    color: #0B0223;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 700;
 
-
+}
+.online-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.online-description{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: .90rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.online-container{
+    max-width: 80vw;
+    margin: auto;
+}
+.online-image{
+    height: 200px;
+    width: 220px;
+    padding: 10px 10px;
+}
+.online-img-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.online-description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* responsive style here */
+
+
 @media screen and (max-width:576px) {
     .nav-container{
         flex-direction: column;
@@ -212,7 +259,9 @@ main{
     .nav-container ul{
         margin: 0px;
     }
+
     /* nav ends here */
+
     .banner-container{
         flex-direction: column;
         flex-direction: column-reverse;
@@ -229,7 +278,9 @@ main{
     .banner-large-image{
         margin-right: 0px;
     }
+
     /* banner end hhere */
+
     .gamer-container{
         flex-direction: column;
         margin-top: 100px;
@@ -237,5 +288,9 @@ main{
     .gamer-content{
         align-content: center;
     }
-    
+
+    /* gamer end */
+
+
+
 }
